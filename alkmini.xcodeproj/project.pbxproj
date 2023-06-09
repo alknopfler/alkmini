@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E915D172A33B2580089BE61 /* alkminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D162A33B2580089BE61 /* alkminiApp.swift */; };
+		0E915D192A33B2580089BE61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D182A33B2580089BE61 /* ContentView.swift */; };
+		0E915D1B2A33B25C0089BE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E915D1A2A33B25C0089BE61 /* Assets.xcassets */; };
+		0E915D1F2A33B25C0089BE61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E915D1E2A33B25C0089BE61 /* Preview Assets.xcassets */; };
+		0E915D292A33B25C0089BE61 /* alkminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D282A33B25C0089BE61 /* alkminiTests.swift */; };
+		0E915D332A33B25C0089BE61 /* alkminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D322A33B25C0089BE61 /* alkminiUITests.swift */; };
+		0E915D352A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E915D252A33B25C0089BE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915D0B2A33B2580089BE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E915D122A33B2580089BE61;
+			remoteInfo = alkmini;
+		};
+		0E915D2F2A33B25C0089BE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915D0B2A33B2580089BE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E915D122A33B2580089BE61;
+			remoteInfo = alkmini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E915D132A33B2580089BE61 /* alkmini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alkmini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E915D162A33B2580089BE61 /* alkminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiApp.swift; sourceTree = "<group>"; };
+		0E915D182A33B2580089BE61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E915D1A2A33B25C0089BE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E915D1C2A33B25C0089BE61 /* alkmini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = alkmini.entitlements; sourceTree = "<group>"; };
+		0E915D1E2A33B25C0089BE61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E915D242A33B25C0089BE61 /* alkminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alkminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E915D282A33B25C0089BE61 /* alkminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiTests.swift; sourceTree = "<group>"; };
+		0E915D2E2A33B25C0089BE61 /* alkminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alkminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E915D322A33B25C0089BE61 /* alkminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITests.swift; sourceTree = "<group>"; };
+		0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E915D102A33B2580089BE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D212A33B25C0089BE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D2B2A33B25C0089BE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E915D0A2A33B2580089BE61 = {
+			isa = PBXGroup;
+			children = (
+				0E915D152A33B2580089BE61 /* alkmini */,
+				0E915D272A33B25C0089BE61 /* alkminiTests */,
+				0E915D312A33B25C0089BE61 /* alkminiUITests */,
+				0E915D142A33B2580089BE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E915D142A33B2580089BE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E915D132A33B2580089BE61 /* alkmini.app */,
+				0E915D242A33B25C0089BE61 /* alkminiTests.xctest */,
+				0E915D2E2A33B25C0089BE61 /* alkminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E915D152A33B2580089BE61 /* alkmini */ = {
+			isa = PBXGroup;
+			children = (
+				0E915D162A33B2580089BE61 /* alkminiApp.swift */,
+				0E915D182A33B2580089BE61 /* ContentView.swift */,
+				0E915D1A2A33B25C0089BE61 /* Assets.xcassets */,
+				0E915D1C2A33B25C0089BE61 /* alkmini.entitlements */,
+				0E915D1D2A33B25C0089BE61 /* Preview Content */,
+			);
+			path = alkmini;
+			sourceTree = "<group>";
+		};
+		0E915D1D2A33B25C0089BE61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E915D1E2A33B25C0089BE61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E915D272A33B25C0089BE61 /* alkminiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E915D282A33B25C0089BE61 /* alkminiTests.swift */,
+			);
+			path = alkminiTests;
+			sourceTree = "<group>";
+		};
+		0E915D312A33B25C0089BE61 /* alkminiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E915D322A33B25C0089BE61 /* alkminiUITests.swift */,
+				0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */,
+			);
+			path = alkminiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E915D122A33B2580089BE61 /* alkmini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E915D382A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkmini" */;
+			buildPhases = (
+				0E915D0F2A33B2580089BE61 /* Sources */,
+				0E915D102A33B2580089BE61 /* Frameworks */,
+				0E915D112A33B2580089BE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alkmini;
+			productName = alkmini;
+			productReference = 0E915D132A33B2580089BE61 /* alkmini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E915D232A33B25C0089BE61 /* alkminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E915D3B2A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkminiTests" */;
+			buildPhases = (
+				0E915D202A33B25C0089BE61 /* Sources */,
+				0E915D212A33B25C0089BE61 /* Frameworks */,
+				0E915D222A33B25C0089BE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E915D262A33B25C0089BE61 /* PBXTargetDependency */,
+			);
+			name = alkminiTests;
+			productName = alkminiTests;
+			productReference = 0E915D242A33B25C0089BE61 /* alkminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E915D2D2A33B25C0089BE61 /* alkminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E915D3E2A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkminiUITests" */;
+			buildPhases = (
+				0E915D2A2A33B25C0089BE61 /* Sources */,
+				0E915D2B2A33B25C0089BE61 /* Frameworks */,
+				0E915D2C2A33B25C0089BE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E915D302A33B25C0089BE61 /* PBXTargetDependency */,
+			);
+			name = alkminiUITests;
+			productName = alkminiUITests;
+			productReference = 0E915D2E2A33B25C0089BE61 /* alkminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E915D0B2A33B2580089BE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E915D122A33B2580089BE61 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0E915D232A33B25C0089BE61 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0E915D122A33B2580089BE61;
+					};
+					0E915D2D2A33B25C0089BE61 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0E915D122A33B2580089BE61;
+					};
+				};
+			};
+			buildConfigurationList = 0E915D0E2A33B2580089BE61 /* Build configuration list for PBXProject "alkmini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E915D0A2A33B2580089BE61;
+			productRefGroup = 0E915D142A33B2580089BE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E915D122A33B2580089BE61 /* alkmini */,
+				0E915D232A33B25C0089BE61 /* alkminiTests */,
+				0E915D2D2A33B25C0089BE61 /* alkminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E915D112A33B2580089BE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E915D1F2A33B25C0089BE61 /* Preview Assets.xcassets in Resources */,
+				0E915D1B2A33B25C0089BE61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D222A33B25C0089BE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D2C2A33B25C0089BE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E915D0F2A33B2580089BE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E915D192A33B2580089BE61 /* ContentView.swift in Sources */,
+				0E915D172A33B2580089BE61 /* alkminiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D202A33B25C0089BE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E915D292A33B25C0089BE61 /* alkminiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E915D2A2A33B25C0089BE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E915D352A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift in Sources */,
+				0E915D332A33B25C0089BE61 /* alkminiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E915D262A33B25C0089BE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E915D122A33B2580089BE61 /* alkmini */;
+			targetProxy = 0E915D252A33B25C0089BE61 /* PBXContainerItemProxy */;
+		};
+		0E915D302A33B25C0089BE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E915D122A33B2580089BE61 /* alkmini */;
+			targetProxy = 0E915D2F2A33B25C0089BE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E915D362A33B25C0089BE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E915D372A33B25C0089BE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0E915D392A33B25C0089BE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alkmini/alkmini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"alkmini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E915D3A2A33B25C0089BE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alkmini/alkmini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"alkmini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E915D3C2A33B25C0089BE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alkmini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alkmini";
+			};
+			name = Debug;
+		};
+		0E915D3D2A33B25C0089BE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alkmini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alkmini";
+			};
+			name = Release;
+		};
+		0E915D3F2A33B25C0089BE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alkmini;
+			};
+			name = Debug;
+		};
+		0E915D402A33B25C0089BE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alklabs.alkminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alkmini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E915D0E2A33B2580089BE61 /* Build configuration list for PBXProject "alkmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E915D362A33B25C0089BE61 /* Debug */,
+				0E915D372A33B25C0089BE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E915D382A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E915D392A33B25C0089BE61 /* Debug */,
+				0E915D3A2A33B25C0089BE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E915D3B2A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E915D3C2A33B25C0089BE61 /* Debug */,
+				0E915D3D2A33B25C0089BE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E915D3E2A33B25C0089BE61 /* Build configuration list for PBXNativeTarget "alkminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E915D3F2A33B25C0089BE61 /* Debug */,
+				0E915D402A33B25C0089BE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E915D0B2A33B2580089BE61 /* Project object */;
+}
