@@ -10,15 +10,16 @@ import SwiftUI
 struct ContentView: View {
     @State private var scriptResult: Bool = false
     @State private var textColor: Color = .black
+    @State private var serverColor: Color = .black
 
     var body: some View {
         VStack {
-            HStack{
+            HStack {
+                Image(systemName: "server.rack")
+                    .foregroundColor(serverColor)
                 Text("Alkmini Server")
                     .foregroundColor(textColor)
                     .padding()
-                Image(server.rack)
-                
             }
             Button(action: {
                 // Aquí ejecuta tu script y asigna el resultado a la variable scriptResult
@@ -27,6 +28,7 @@ struct ContentView: View {
                 // Actualiza el color del texto según el resultado del script
                 if scriptResult {
                     textColor = .green
+                    serverColor = .green
                 } else {
                     textColor = .red
                 }
