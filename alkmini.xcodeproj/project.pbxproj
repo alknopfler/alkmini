@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0E915D172A33B2580089BE61 /* alkminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D162A33B2580089BE61 /* alkminiApp.swift */; };
 		0E915D192A33B2580089BE61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D182A33B2580089BE61 /* ContentView.swift */; };
-		0E915D1B2A33B25C0089BE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E915D1A2A33B25C0089BE61 /* Assets.xcassets */; };
 		0E915D1F2A33B25C0089BE61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E915D1E2A33B25C0089BE61 /* Preview Assets.xcassets */; };
 		0E915D292A33B25C0089BE61 /* alkminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D282A33B25C0089BE61 /* alkminiTests.swift */; };
 		0E915D332A33B25C0089BE61 /* alkminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D322A33B25C0089BE61 /* alkminiUITests.swift */; };
@@ -37,7 +36,6 @@
 		0E915D132A33B2580089BE61 /* alkmini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alkmini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E915D162A33B2580089BE61 /* alkminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiApp.swift; sourceTree = "<group>"; };
 		0E915D182A33B2580089BE61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0E915D1A2A33B25C0089BE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E915D1C2A33B25C0089BE61 /* alkmini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = alkmini.entitlements; sourceTree = "<group>"; };
 		0E915D1E2A33B25C0089BE61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E915D242A33B25C0089BE61 /* alkminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alkminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +43,7 @@
 		0E915D2E2A33B25C0089BE61 /* alkminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alkminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E915D322A33B25C0089BE61 /* alkminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITests.swift; sourceTree = "<group>"; };
 		0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E915D422A33B8F10089BE61 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +96,7 @@
 			children = (
 				0E915D162A33B2580089BE61 /* alkminiApp.swift */,
 				0E915D182A33B2580089BE61 /* ContentView.swift */,
-				0E915D1A2A33B25C0089BE61 /* Assets.xcassets */,
+				0E915D422A33B8F10089BE61 /* Script.sh */,
 				0E915D1C2A33B25C0089BE61 /* alkmini.entitlements */,
 				0E915D1D2A33B25C0089BE61 /* Preview Content */,
 			);
@@ -234,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E915D1F2A33B25C0089BE61 /* Preview Assets.xcassets in Resources */,
-				0E915D1B2A33B25C0089BE61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

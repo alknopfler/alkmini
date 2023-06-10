@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var scriptResult: Bool = false
+    @State private var textColor: Color = .black
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack{
+                Text("Alkmini Server")
+                    .foregroundColor(textColor)
+                    .padding()
+                Image(server.rack)
+                
+            }
+            Button(action: {
+                // Aquí ejecuta tu script y asigna el resultado a la variable scriptResult
+                scriptResult = true
+
+                // Actualiza el color del texto según el resultado del script
+                if scriptResult {
+                    textColor = .green
+                } else {
+                    textColor = .red
+                }
+            }) {
+                Text("Server Status")
+                    .foregroundColor(.black)
+                    .padding()
+                    .cornerRadius(10)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
