@@ -13,5 +13,14 @@ struct alkminiApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            CommandMenu("Opciones") {
+                Button("Opción 1", action: voidreturn)
+                Button("Opción 2", action: voidreturn)
+            }
+        }
     }
+}
+
+func voidreturn() {
 }

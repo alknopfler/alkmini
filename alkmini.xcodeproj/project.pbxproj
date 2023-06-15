@@ -13,6 +13,7 @@
 		0E915D292A33B25C0089BE61 /* alkminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D282A33B25C0089BE61 /* alkminiTests.swift */; };
 		0E915D332A33B25C0089BE61 /* alkminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D322A33B25C0089BE61 /* alkminiUITests.swift */; };
 		0E915D352A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */; };
+		0E915D4C2A3B97FB0089BE61 /* status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E915D4B2A3B97FB0089BE61 /* status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,7 @@
 		0E915D2E2A33B25C0089BE61 /* alkminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alkminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E915D322A33B25C0089BE61 /* alkminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITests.swift; sourceTree = "<group>"; };
 		0E915D342A33B25C0089BE61 /* alkminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0E915D422A33B8F10089BE61 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		0E915D4B2A3B97FB0089BE61 /* status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +97,9 @@
 			children = (
 				0E915D162A33B2580089BE61 /* alkminiApp.swift */,
 				0E915D182A33B2580089BE61 /* ContentView.swift */,
-				0E915D422A33B8F10089BE61 /* Script.sh */,
 				0E915D1C2A33B25C0089BE61 /* alkmini.entitlements */,
 				0E915D1D2A33B25C0089BE61 /* Preview Content */,
+				0E915D4B2A3B97FB0089BE61 /* status.swift */,
 			);
 			path = alkmini;
 			sourceTree = "<group>";
@@ -259,6 +260,7 @@
 			files = (
 				0E915D192A33B2580089BE61 /* ContentView.swift in Sources */,
 				0E915D172A33B2580089BE61 /* alkminiApp.swift in Sources */,
+				0E915D4C2A3B97FB0089BE61 /* status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

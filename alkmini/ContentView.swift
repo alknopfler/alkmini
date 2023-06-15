@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var scriptResult: Bool = false
+    @State private var statusServer: Bool = false
     @State private var textColor: Color = .black
     @State private var serverColor: Color = .black
+    @State private var showMenu = false
 
     var body: some View {
         VStack {
@@ -23,10 +24,10 @@ struct ContentView: View {
             }
             Button(action: {
                 // Aquí ejecuta tu script y asigna el resultado a la variable scriptResult
-                scriptResult = true
+                statusServer = checkStatus()
 
                 // Actualiza el color del texto según el resultado del script
-                if scriptResult {
+                if statusServer {
                     textColor = .green
                     serverColor = .green
                 } else {
@@ -39,7 +40,27 @@ struct ContentView: View {
                     .cornerRadius(10)
             }
             .padding()
+            .toolbar {
+                ToolbarItem(placement: .navigation) {
+                    Button(action: {
+                                    showMenu = true
+                    })
+                    {
+                        Image(systemName: "gearshape")
+                            .font(.system(size: 18))
+                    }
+                    .popover(isPresented: $showMenu) {
+                            Menu {
+                                Button("Opción 1", action: voidreturn)
+                                Button("Opción 2", action: voidreturn)
+                                } label: {
+                                        EmptyView()
+                                }
+                    }
+                }
+            }
         }
+        
     }
 }
 
